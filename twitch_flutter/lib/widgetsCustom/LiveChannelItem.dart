@@ -20,6 +20,10 @@ class LiveChannelItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    var largura = MediaQuery.of(context).size.width;
+    var altura = MediaQuery.of(context).size.height;
+
     return Container(
       //width: MediaQuery.of(context).size.width,
       padding: EdgeInsets.only(left: 0, top: 10, right: 5,bottom: 10),
@@ -32,8 +36,8 @@ class LiveChannelItem extends StatelessWidget {
             children: <Widget>[
               Image.network(
                 urlImageLive,
-                height: 80,
-                width: 160,
+                height: altura * 0.11 ,//80
+                width: largura * 0.40,//160
                 fit: BoxFit.fill,
               ),
               Positioned(
