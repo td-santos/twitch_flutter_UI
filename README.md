@@ -17,7 +17,11 @@ UI Design
     • Containers decorations
   
     • ListView.
+    
+    • Caroussel Slider.
   
     • Custom Widgets
   
     • InkWell em imagem
+    
+    • Bottom Navigation
