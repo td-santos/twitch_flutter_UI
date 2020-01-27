@@ -22,7 +22,9 @@ var canaisAoVivo = [
     "PUBG", 
     "Portugês",
     "2.1 mil",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_thedarkness-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/AT-cm%7C601865867-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_thedarkness-440x248.jpg"
+    ),
 
     CanalTwitch(
     "ERAGamesBR", 
@@ -31,25 +33,31 @@ var canaisAoVivo = [
     "Overwatch", 
     "Portugês",
     "70",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragamesbr-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/35546967200-offset-3902-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_eragamesbr-440x248.jpg"
+    ),
 
     CanalTwitch(
-    "Gabi", 
-    "https://static-cdn.jtvnw.net/jtv_user_pictures/f78df9aa-61a6-432e-a4d1-2178aff6bcbd-profile_image-70x70.png", 
-    "oxe", 
+    "Vinc3ntvega", 
+    "https://static-cdn.jtvnw.net/jtv_user_pictures/36afabbbd387ae3a-profile_image-70x70.png", 
+    "4K Sunday Free Gift Sub Every 4k !IG !amazon !merch", 
     "Dead by Daylight", 
-    "Portugês",
-    "910",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_gabi-440x248.jpg"),
+    "Inglês",
+    "1441",
+    "https://clips-media-assets2.twitch.tv/32786005536-offset-22356-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_gabi-440x248.jpg"
+    ),
 
     CanalTwitch(
     "SINXPLAYSBR", 
     "https://static-cdn.jtvnw.net/jtv_user_pictures/sinxplaysbr-profile_image-f595de704cd209d7-70x70.png", 
-    "Dragon Ball Z Kakarot,Início da Saga Buu !", 
+    "Dragon Ball Z Kakarot,Início da Saga Buu !!!!!!!!!!!!!@@@@@@@@@@@@@@@@@", 
     "Dragon Ball Z Kakarot", 
     "Portugês",
     "87",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_sinxplaysbr-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/AT-cm%7C300724125-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_sinxplaysbr-440x248.jpg"
+    ),
 
     CanalTwitch(
     "AussieAntics", 
@@ -58,7 +66,9 @@ var canaisAoVivo = [
     "Fortnite", 
     "Inglês",
     "523",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_aussieantics-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/AT-cm%7C594572919-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_aussieantics-440x248.jpg"
+    ),
 
     CanalTwitch(
     "Charleemanderz", 
@@ -67,7 +77,9 @@ var canaisAoVivo = [
     "Zelda Breath of the Wild", 
     "Inglês",
     "132",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_charleemanderz-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/AT-cm%7C548998418-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_charleemanderz-440x248.jpg"
+    ),
 
     //Replicando
 
@@ -78,7 +90,9 @@ var canaisAoVivo = [
     "PUBG", 
     "Portugês",
     "2.1 mil",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_thedarkness-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/AT-cm%7C601865867-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_thedarkness-440x248.jpg"
+    ),
 
     CanalTwitch(
     "ERAGamesBR", 
@@ -87,25 +101,31 @@ var canaisAoVivo = [
     "Overwatch", 
     "Portugês",
     "70",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragamesbr-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/35546967200-offset-3902-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_eragamesbr-440x248.jpg"
+    ),
 
     CanalTwitch(
-    "Gabi", 
-    "https://static-cdn.jtvnw.net/jtv_user_pictures/f78df9aa-61a6-432e-a4d1-2178aff6bcbd-profile_image-70x70.png", 
-    "oxe", 
+    "Vinc3ntvega", 
+    "https://static-cdn.jtvnw.net/jtv_user_pictures/36afabbbd387ae3a-profile_image-70x70.png", 
+    "4K Sunday Free Gift Sub Every 4k !IG !amazon !merch", 
     "Dead by Daylight", 
-    "Portugês",
-    "910",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_gabi-440x248.jpg"),
+    "Inglês",
+    "1441",
+    "https://clips-media-assets2.twitch.tv/32786005536-offset-22356-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_gabi-440x248.jpg"
+    ),
 
     CanalTwitch(
     "SINXPLAYSBR", 
     "https://static-cdn.jtvnw.net/jtv_user_pictures/sinxplaysbr-profile_image-f595de704cd209d7-70x70.png", 
-    "Dragon Ball Z Kakarot,Início da Saga Buu !", 
+    "Dragon Ball Z Kakarot,Início da Saga Buu !!!!!!!!!!!!!@@@@@@@@@@@@@@@@@", 
     "Dragon Ball Z Kakarot", 
     "Portugês",
     "87",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_sinxplaysbr-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/AT-cm%7C300724125-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_sinxplaysbr-440x248.jpg"
+    ),
 
     CanalTwitch(
     "AussieAntics", 
@@ -114,7 +134,9 @@ var canaisAoVivo = [
     "Fortnite", 
     "Inglês",
     "523",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_aussieantics-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/AT-cm%7C594572919-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_aussieantics-440x248.jpg"
+    ),
 
     CanalTwitch(
     "Charleemanderz", 
@@ -123,5 +145,7 @@ var canaisAoVivo = [
     "Zelda Breath of the Wild", 
     "Inglês",
     "132",
-    "https://static-cdn.jtvnw.net/previews-ttv/live_user_charleemanderz-440x248.jpg"),
+    "https://clips-media-assets2.twitch.tv/AT-cm%7C548998418-preview-480x272.jpg",
+    //"https://static-cdn.jtvnw.net/previews-ttv/live_user_charleemanderz-440x248.jpg"
+    ),
 ];

@@ -13,7 +13,7 @@ class _SeguindoPageState extends State<SeguindoPage> {
 
   
 
-_leadingAppBar(){
+/*_leadingAppBar(){
   return Container(
     //height: 10,width: 10,
     padding: EdgeInsets.only(left: 10,top: 5,bottom: 5),
@@ -21,7 +21,7 @@ _leadingAppBar(){
     child: Image.network("https://pbs.twimg.com/profile_images/826488712263585792/DvI2yezW.jpg",fit: BoxFit.contain,),
   ),
   );
-}
+}*/
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,7 @@ _leadingAppBar(){
     var altura = MediaQuery.of(context).size.height;
     return Scaffold(
       backgroundColor: Colors.black87,
-      appBar: AppBar(
+      /*appBar: AppBar(
         backgroundColor: Colors.black87,
         elevation: 0,
         leading: _leadingAppBar(),
@@ -49,7 +49,7 @@ _leadingAppBar(){
             icon: Icon(Icons.search,color: Colors.white,size: 30,),
           ),
         ],
-      ),
+      ),*/
 
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,

@@ -105,6 +105,7 @@ class LiveChannelItem extends StatelessWidget {
                 color: Colors.grey
               ),),
               SizedBox(height: 7,),
+              
               Container(
                 //width: MediaQuery.of(context).size.width * 0.5,
                 decoration: BoxDecoration(
