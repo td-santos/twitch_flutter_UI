@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:twitch_flutter/screens/Descubra.dart';
+import 'package:twitch_flutter/screens/ProcurarPage.dart';
 import 'package:twitch_flutter/screens/SeguindoPage.dart';
 
 class HomePage extends StatefulWidget {
@@ -10,7 +11,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 
   int _indiceBottomNavigator = 0;
-  //var cor0,cor1,cor2;
+  
 
   _leadingAppBar(){
   return Container(
@@ -30,13 +31,13 @@ class _HomePageState extends State<HomePage> {
     List<Widget> telas =[
       SeguindoPage(),      
       DescubraPage(),
-      Text("Procurar"),      
+      ProcurarPage(),      
     ];
 
     return Scaffold(
 
       appBar: AppBar(
-        backgroundColor: Colors.black87,
+        backgroundColor: Colors.black,
         elevation: 0,
         leading: _leadingAppBar(),
         actions: <Widget>[
@@ -62,33 +63,15 @@ class _HomePageState extends State<HomePage> {
         onTap: (indice){
           setState(() {
             print(indice);
-            _indiceBottomNavigator = indice;
-            
-            /*if(indice == 0){
-                   cor0 = Colors.purple[200];
-                
-                  cor1 = Colors.white;
-                  cor2 = Colors.white;
-            }
-            if(indice == 1){
-                   cor1 = Colors.purple[200];
-                
-                  cor0 = Colors.white;
-                  cor2 = Colors.white;
-            }
-            if(indice == 2){
-                   cor2 = Colors.purple[200];
-                
-                  cor0 = Colors.white;
-                  cor1 = Colors.white;
-            }*/
+            _indiceBottomNavigator = indice;            
+        
           });
         },
         selectedItemColor: Colors.purple[200],
         unselectedItemColor: Colors.white,
         selectedLabelStyle: TextStyle(color: Colors.purple[200]),
         type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.black87,
+        backgroundColor: Colors.black,
         //fixedColor: Colors.purple[200],
         items: [
           
