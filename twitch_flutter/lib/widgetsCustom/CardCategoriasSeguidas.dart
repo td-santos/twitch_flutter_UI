@@ -19,7 +19,7 @@ class CardCategoriasSeguidas extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Ink.image(
-            image: AssetImage(url),
+            image: NetworkImage(url),
             height: 200,width: 160,
             fit: BoxFit.fill,
             child: InkWell(

@@ -32,10 +32,11 @@ class _ProcurarPageState extends State<ProcurarPage> with SingleTickerProviderSt
 
     return Scaffold(
       backgroundColor: Colors.black,
-      body: SingleChildScrollView(
+      body: Container(
         child: Padding(
           padding: EdgeInsets.all(0),
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Padding(
@@ -62,8 +63,8 @@ class _ProcurarPageState extends State<ProcurarPage> with SingleTickerProviderSt
                     Tab(child: Text("Canais ao vivo",style: TextStyle(fontSize: largura * 0.038,fontWeight: FontWeight.bold),),),
                   ],
                 ),
-                Container(
-                  height: altura,
+                Expanded(
+                  //height: altura ,
                   child: TabBarView(
                     controller: _tabController,
                     children: <Widget>[

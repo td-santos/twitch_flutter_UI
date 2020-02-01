@@ -68,7 +68,7 @@ class LiveChannelItem extends StatelessWidget {
               )
             ],
           ),
-          Container(
+          Container( 
             width: MediaQuery.of(context).size.width * 0.5,
             padding: EdgeInsets.only(left: 15),
             child: Column(

@@ -120,9 +120,9 @@ class _DescubraPageState extends State<DescubraPage> {
                 //width: double.infinity,
                 child: ListView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: categorias.length,
+                    itemCount: categoriasRec.length,
                     itemBuilder: (context, index) {
-                      Categorias cat = categorias[index];
+                      Categorias cat = categoriasRec[index];
                       return CardCategoriasRecomendadas(
                         url: cat.urlImage,
                         name: cat.name,

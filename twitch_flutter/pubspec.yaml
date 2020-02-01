@@ -42,12 +42,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-   - assets/images/art_capa.jpg
-   - assets/images/deadby_capa.jpg
-   - assets/images/sekiro_capa.jpg
-   - assets/images/witcher3_capa.jpg
-   - assets/images/zelda_capa.jpg
+  #assets:
+   #- assets/images/art_capa.jpg
+   
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

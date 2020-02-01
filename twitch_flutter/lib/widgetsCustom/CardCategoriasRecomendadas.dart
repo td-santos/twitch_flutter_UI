@@ -11,6 +11,9 @@ class CardCategoriasRecomendadas extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    var largura = MediaQuery.of(context).size.width;
+    var altura = MediaQuery.of(context).size.height;
     return Container(
       width: MediaQuery.of(context).size.width * 0.4,
       padding: EdgeInsets.only(right: 10),
@@ -21,7 +24,7 @@ class CardCategoriasRecomendadas extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Ink.image(
-            image: AssetImage(url),
+            image: NetworkImage(url),
             height: 200,width: 160,
             fit: BoxFit.fill,
             child: InkWell(
@@ -59,7 +62,7 @@ class CardCategoriasRecomendadas extends StatelessWidget {
                   padding: EdgeInsets.only(left: 7,right: 7,top: 3,bottom: 3),
                   child: Text(tipo[0], style: TextStyle(
                     color: Colors.white,
-                    fontSize: 15
+                    fontSize: largura *  0.033
                   ),),
                 )
               ),
@@ -77,7 +80,7 @@ class CardCategoriasRecomendadas extends StatelessWidget {
                   padding: EdgeInsets.only(left: 7,right: 7,top: 3,bottom: 3),
                   child: Text(tipo[1], style: TextStyle(
                     color: Colors.white,
-                    fontSize: 15
+                    fontSize: largura * 0.033
                   ),),
                 )
               )
